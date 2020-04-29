@@ -1,0 +1,19 @@
+{
+  "name": "vscode-textbook-part2-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vscode-textbook"
+  },
+  "author": "Visual Studio Code Textbook Authors",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+    "": "5-2_lint",
+    "": "自動フォーマット",
+    "eslint.autoFixOnSave": false
+}

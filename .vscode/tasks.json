@@ -1,0 +1,48 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "4-8-4 Run tests",
+            "type": "shell",
+            "command": "./4-8_task/scripts/test.sh",
+            "windows": {
+                "command": ".\\4-8_task\\scripts\\test.cmd"
+            },
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Echo One",
+            "type": "shell",
+            "command": "echo One"
+        },
+        {
+            "label": "Echo Two",
+            "type": "shell",
+            "command": "echo Two"
+        },
+        {
+            "label": "4-8-7 Echo Three",
+            "type": "shell",
+            "command": "echo Three",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "One",
+                "Two"
+            ]
+        },
+        {
+            "label": "4-8-9 TypeScript compile",
+            "type": "shell",
+            "command": "tsc ${file}",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+    ]
+}
