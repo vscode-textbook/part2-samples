@@ -1,6 +1,6 @@
 # プログラマーのためのVisual Studio Codeの教科書 - Part2 サンプルコード
 
-下記目次のうち、<span style="color: red; ">**太い赤文字**</span>の項目について、サンプルコードを提供しています。
+下記目次のうち、**太文字★**の項目について、サンプルコードを提供しています。
 
 - Chapter 4 プログラミング支援機能
   - 4-1 準備＆インストール
@@ -8,12 +8,12 @@
   - 4-3 IntelliSense
   - 4-4 CodeLens
   - 4-5 ナビゲーション
-  - <span style="color: red; ">**4-6 リファクタリング**</span>
-  - <span style="color: red; ">**4-7 デバッグ**</span>
-  - <span style="color: red; ">**4-8 タスク**</span>
+  - **★4-6 リファクタリング**
+  - **★4-7 デバッグ**
+  - **★4-8 タスク**
 - Chapter 5 ソフトウェア開発のための拡張機能
   - 5-1 GitHub Pull Requests拡張
-  - <span style="color: red; ">**5-2 Lintとフォーマッター**</span>
+  - **★5-2 Lintとフォーマッター**
   - 5-3 Remote Development - リモート開発
   - 5-4 Visual Studio Live Shere
 
